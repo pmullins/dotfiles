@@ -7,5 +7,6 @@
 "\e\e[D": backward-word
 
 set bell-style visible
+
 set history-size 10000
 
