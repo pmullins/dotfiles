@@ -95,6 +95,9 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
+" turn on line numbers
+set number
+
 execute pathogen#infect()
 set background=dark
 colorscheme solarized
