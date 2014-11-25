@@ -11,6 +11,5 @@ alias mv='mv -i'
 
 alias nano='nano -w'
 
-# force tmux to 256 colors
-alias tmux='tmux -2'
-
+# force tmux to 256 colors and to reattach to the first suspended session if one exists
+alias tmux='tmux -2 attach -t 0 || tmux -2 new'
