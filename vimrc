@@ -102,5 +102,5 @@ endif
 set number
 
 execute pathogen#infect()
-set background=light
+set background=dark
 colorscheme solarized
