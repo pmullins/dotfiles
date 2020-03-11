@@ -1,5 +1,5 @@
 # Enable colors in "ls" command output
-alias ls="ls -ah --color=auto"
+alias ls="ls -ahF --color=auto"
 alias ll="ls -l"
 
 alias grep="grep --color=auto"
